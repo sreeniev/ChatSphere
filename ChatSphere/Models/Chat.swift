@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+struct Chat: Identifiable {
+    let id = UUID()
+    let title: String // Chatbot name like "Noah"
+    var messages: [Message] = []
+
+    var lastMessagePreview: String {
+        messages.last?.text ?? "No messages yet"
+    }
+}
+
+
+

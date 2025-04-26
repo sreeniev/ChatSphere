@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct ChatSphereApp: App {
+struct ChatApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ChatListView()
+            }
         }
     }
 }

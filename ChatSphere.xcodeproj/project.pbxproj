@@ -6,19 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		E2EBA0D82DBBB702005872C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E2EBA0C22DBBB702005872C7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E2EBA0C92DBBB702005872C7;
-			remoteInfo = ChatSphere;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		E2EBA0CA2DBBB702005872C7 /* ChatSphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatSphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2EBA0D72DBBB702005872C7 /* ChatSphereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatSphereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -27,22 +16,10 @@
 			path = ChatSphere;
 			sourceTree = "<group>";
 		};
-		E2EBA0DA2DBBB702005872C7 /* ChatSphereTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ChatSphereTests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E2EBA0C72DBBB702005872C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2EBA0D42DBBB702005872C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,7 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				E2EBA0CC2DBBB702005872C7 /* ChatSphere */,
-				E2EBA0DA2DBBB702005872C7 /* ChatSphereTests */,
 				E2EBA0CB2DBBB702005872C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				E2EBA0CA2DBBB702005872C7 /* ChatSphere.app */,
-				E2EBA0D72DBBB702005872C7 /* ChatSphereTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,29 +70,6 @@
 			productReference = E2EBA0CA2DBBB702005872C7 /* ChatSphere.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E2EBA0D62DBBB702005872C7 /* ChatSphereTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E2EBA0EE2DBBB702005872C7 /* Build configuration list for PBXNativeTarget "ChatSphereTests" */;
-			buildPhases = (
-				E2EBA0D32DBBB702005872C7 /* Sources */,
-				E2EBA0D42DBBB702005872C7 /* Frameworks */,
-				E2EBA0D52DBBB702005872C7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E2EBA0D92DBBB702005872C7 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E2EBA0DA2DBBB702005872C7 /* ChatSphereTests */,
-			);
-			name = ChatSphereTests;
-			packageProductDependencies = (
-			);
-			productName = ChatSphereTests;
-			productReference = E2EBA0D72DBBB702005872C7 /* ChatSphereTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -130,10 +82,6 @@
 				TargetAttributes = {
 					E2EBA0C92DBBB702005872C7 = {
 						CreatedOnToolsVersion = 16.3;
-					};
-					E2EBA0D62DBBB702005872C7 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = E2EBA0C92DBBB702005872C7;
 					};
 				};
 			};
@@ -152,20 +100,12 @@
 			projectRoot = "";
 			targets = (
 				E2EBA0C92DBBB702005872C7 /* ChatSphere */,
-				E2EBA0D62DBBB702005872C7 /* ChatSphereTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E2EBA0C82DBBB702005872C7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2EBA0D52DBBB702005872C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -182,22 +122,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2EBA0D32DBBB702005872C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E2EBA0D92DBBB702005872C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E2EBA0C92DBBB702005872C7 /* ChatSphere */;
-			targetProxy = E2EBA0D82DBBB702005872C7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E2EBA0E92DBBB702005872C7 /* Debug */ = {
@@ -373,42 +298,6 @@
 			};
 			name = Release;
 		};
-		E2EBA0EF2DBBB702005872C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.ChatSphereTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatSphere.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatSphere";
-			};
-			name = Debug;
-		};
-		E2EBA0F02DBBB702005872C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo.ChatSphereTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatSphere.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatSphere";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -426,15 +315,6 @@
 			buildConfigurations = (
 				E2EBA0EC2DBBB702005872C7 /* Debug */,
 				E2EBA0ED2DBBB702005872C7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E2EBA0EE2DBBB702005872C7 /* Build configuration list for PBXNativeTarget "ChatSphereTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2EBA0EF2DBBB702005872C7 /* Debug */,
-				E2EBA0F02DBBB702005872C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
